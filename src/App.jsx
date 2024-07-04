@@ -1,7 +1,16 @@
-export default function App() {
+import React from 'react';
+import Button from './Button';
+
+const App = () => {
+  const handleClick = () => alert('Button Clicked!');
+
   return (
-    <h1 className="bg-pink-400 text-3xl font-bold underline p-10">
-      Hello world!
-    </h1>
-  )
-}
+    <div className="flex justify-center items-center h-screen">
+      <Button onClick={handleClick} className="bg-blue-500 text-white">
+        Click Me!
+      </Button>
+    </div>
+  );
+};
+
+export default App;
