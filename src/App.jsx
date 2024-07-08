@@ -16,7 +16,7 @@ const App = () => {
       <div>
         <Counter />
       </div> */}
-      <div className="">
+      <div className="bg-pink-200 p-10">
       <Greeting name="John" /> 
       <Greeting name="Jane" />
     </div>
