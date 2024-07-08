@@ -1,23 +1,29 @@
-// App.jsx
 import React from 'react';
-import Button from './Components/Button';
-import Counter from './Components/Counter';
+{/* import Button from './Components/Button';
+import Counter from './Components/Counter'; */}
+import Greeting from './Components/Greetings';
 
 const App = () => {
-  const handleClick = () => alert('Button Clicked!');
+  {/* const handleClick = () => alert('Button Clicked!'); */}
 
   return (
     <div className="justify-center items-center h-screen space-6 m-5">
-      <div>
+      {/* <div>
         <Button onClick={handleClick} className=" bg-blue-500 text-white p-4 rounded ">
           Click Me!
         </Button>
       </div>
       <div>
         <Counter />
-      </div>
+      </div> */}
+      <div className="">
+      <Greeting name="John" /> 
+      <Greeting name="Jane" />
+    </div>
     </div>
   );
 };
 
+
 export default App;
+
