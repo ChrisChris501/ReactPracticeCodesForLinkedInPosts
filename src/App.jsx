@@ -1,7 +1,7 @@
 import React from 'react';
 {/* import Button from './Components/Button';
-import Counter from './Components/Counter'; */}
-import Greeting from './Components/Greetings';
+import Counter from './Components/State'; */}
+import Greeting from './Components/Props';
 
 const App = () => {
   {/* const handleClick = () => alert('Button Clicked!'); */}
