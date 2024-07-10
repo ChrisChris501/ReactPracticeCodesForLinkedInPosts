@@ -1,7 +1,7 @@
 import React from 'react';
 {/* import Button from './Components/Button';
-import Counter from './Components/State'; */}
-import Greeting from './Components/Props';
+import Counter from './Components/State';
+import Greeting from './Components/Props'; */}
 
 const App = () => {
   {/* const handleClick = () => alert('Button Clicked!'); */}
@@ -15,11 +15,12 @@ const App = () => {
       </div>
       <div>
         <Counter />
-      </div> */}
+      </div>
       <div className="bg-pink-200 p-10">
       <Greeting name="John" /> 
-      <Greeting name="Jane" />
-    </div>
+      <Greeting name="Jane" /> 
+    </div> */}
+    
     </div>
   );
 };
