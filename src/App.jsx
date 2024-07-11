@@ -2,8 +2,8 @@ import React from 'react';
 {/* import Button from './Components/Button';
 import Counter from './Components/State';
 import Greeting from './Components/Props'; */}
-{/* import EventHandling from './Components/EventHandler'; */}
-import MultiEventHandling from './Components/MultiEventhandlers';
+{/* import EventHandling from './Components/EventHandler'; 
+import MultiEventHandling from './Components/MultiEventhandlers'; */}
 
 const App = () => {
   {/* const handleClick = () => alert('Button Clicked!'); */}
@@ -23,8 +23,8 @@ const App = () => {
       <Greeting name="Jane" /> 
     </div> */}
 
-  {/*  <EventHandling /> */}
-    <MultiEventHandling />
+  {/*  <EventHandling /> 
+    <MultiEventHandling /> */}
     </div>
   );
 };
