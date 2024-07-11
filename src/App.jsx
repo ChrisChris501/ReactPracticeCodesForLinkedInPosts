@@ -1,9 +1,10 @@
 import React from 'react';
 {/* import Button from './Components/Button';
 import Counter from './Components/State';
-import Greeting from './Components/Props'; */}
-{/* import EventHandling from './Components/EventHandler'; 
+import Greeting from './Components/Props';
+import EventHandling from './Components/EventHandler'; 
 import MultiEventHandling from './Components/MultiEventhandlers'; */}
+import ConditionalRendering from './Components/ConditionalRendering';
 
 const App = () => {
   {/* const handleClick = () => alert('Button Clicked!'); */}
@@ -21,10 +22,11 @@ const App = () => {
       <div className="bg-pink-200 p-10">
       <Greeting name="John" /> 
       <Greeting name="Jane" /> 
-    </div> */}
+    </div>
 
-  {/*  <EventHandling /> 
+    <EventHandling /> 
     <MultiEventHandling /> */}
+    <ConditionalRendering />
     </div>
   );
 };
