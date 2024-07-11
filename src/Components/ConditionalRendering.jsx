@@ -9,15 +9,15 @@ const ConditionalRendering = () => {
     <div className="flex flex-col items-center justify-center h-screen">
       {isLoggedIn ? (
         <div>
-          <h1>Welcome back!</h1>
-          <button onClick={handleLogout} className="bg-red-500 text-white p-2 rounded">
+          <h1>Welcome back</h1>
+          <button onClick={handleLogout} className="bg-red-500 text-white p-3 rounded">
             Logout
           </button>
         </div>
       ) : (
         <div>
           <h1>Please log in.</h1>
-          <button onClick={handleLogin} className="bg-green-500 text-white p-2 rounded">
+          <button onClick={handleLogin} className="bg-green-500 text-white p-3 rounded">
             Login
           </button>
         </div>
