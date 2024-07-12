@@ -3,8 +3,9 @@ import React from 'react';
 import Counter from './Components/State';
 import Greeting from './Components/Props';
 import EventHandling from './Components/EventHandler'; 
-import MultiEventHandling from './Components/MultiEventhandlers'; */}
-import ConditionalRendering from './Components/ConditionalRendering';
+import MultiEventHandling from './Components/MultiEventhandlers';
+import ConditionalRendering from './Components/ConditionalRendering';  */}
+import Fragments from './Components/Fragments';
 
 const App = () => {
   {/* const handleClick = () => alert('Button Clicked!'); */}
@@ -25,8 +26,9 @@ const App = () => {
     </div>
 
     <EventHandling /> 
-    <MultiEventHandling /> */}
-    <ConditionalRendering />
+    <MultiEventHandling /> 
+    <ConditionalRendering /> */}
+    <Fragments />
     </div>
   );
 };
